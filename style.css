@@ -1,0 +1,1106 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:400,300,700,500,400italic,500italic,700italic,300italic);
+body{
+    margin: 0;
+    padding: 0;
+
+}
+.logo{
+    position: relative;
+    height: 140px;
+    width: 150px;
+    margin: 10px;
+    left: 30px;
+}
+hr{
+    width: 500px;
+    border: 5px solid gold;
+    border-radius: 5px;
+}
+.home{
+    border: 1px solid #07f0d8;
+    background-color: #07f0d8;
+    border-radius: 5px;
+    display: block;
+    position: relative;
+    float: right;
+    top: 50px;
+    right: 80px;
+    height: 25px;
+    width: 150px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.quote{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    background-color:#333333 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .field {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 300px;
+  }
+  
+  .mouse {
+    width: 40px;
+    height: 70px;
+    border: 3px solid #fff;
+    border-radius: 60px;
+    position: relative;
+  }
+  .mouse::before {
+    content: "";
+    width: 7px;
+    height: 7px;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    border-radius: 50%;
+    opacity: 1;
+    animation: wheel 2s infinite;
+    -webkit-animation: wheel 2s infinite;
+  }
+  
+  @keyframes wheel {
+    to {
+      opacity: 0;
+      top: 60px;
+    }
+  }
+  @-webkit-keyframes wheel {
+    to {
+      opacity: 0;
+      top: 60px;
+    }
+  }
+.festive{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.pic1{
+    position: relative;
+}
+.img1{
+    position: absolute;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 25px 0px 25px 0px;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    left: 20px;
+    width: 460px;
+    padding: 20px;
+    bottom: 20px;
+    text-align: center;
+    align-items: center;
+}
+.pic1:hover .img1{
+    opacity: 1;
+}
+.pic2{
+    position: relative;
+}
+.img2{
+    position: absolute;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 0px 25px 0px 25px;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    left: 20px;
+    width: 464px;
+    padding: 20px;
+    bottom: 24px;
+    text-align: center;
+    align-items: center;
+}
+.pic2:hover .img2{
+    opacity: 1;
+}
+.pic3{
+    position: relative;
+}
+.img3{
+    position: absolute;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 25px 0px 25px 0px;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    left: 20px;
+    width: 460px;
+    padding: 20px;
+    bottom: 23px;
+    text-align: center;
+    align-items: center;
+}
+.pic3:hover .img3{
+    opacity: 1;
+}
+.pic4{
+    position: relative;
+}
+.img4{
+    position: absolute;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 0px 25px 0px 25px;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    left: 20px;
+    width: 463px;
+    padding: 20px;
+    bottom: 23px;
+    text-align: center;
+    align-items: center;
+}
+.pic4:hover .img4{
+    opacity: 1;
+}
+.pic5{
+    position: relative;
+}
+.img5{
+    position: absolute;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 25px 0px 25px 0px;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    left: 20px;
+    width: 460px;
+    padding: 20px;
+    bottom: 23px;
+    text-align: center;
+    align-items: center;
+}
+.pic5:hover .img5{
+    opacity: 1;
+}
+.pic6{
+    position: relative;
+}
+.img6{
+    position: absolute;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 0px 25px 0px 25px;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    left: 20px;
+    width: 460px;
+    padding: 20px;
+    bottom: 23px;
+    text-align: center;
+    align-items: center;
+}
+.pic6:hover .img6{
+    opacity: 1;
+}
+.diwali{
+    height: 400px;
+    width: 500px;
+    display: block;
+    margin: 20px;
+    border-radius: 25px 0px 25px 0px;
+}
+.holi{
+    border: 2px solid #f0e807;
+    height: 400px;
+    width: 500px;
+    display: inline-block;
+    margin: 20px;
+    border-radius: 0px 25px 0px 25px;
+}
+.dusshera{
+    height: 400px;
+    width: 500px;
+    display: inline-block;
+    margin: 20px;
+    border-radius: 25px 0px 25px 0px;
+}
+.durgapuja{
+    border: 2px solid #f0e807;
+    height: 400px;
+    width: 500px;
+    display: inline-block;
+    margin: 20px;
+    border-radius: 0px 25px 0px 25px;
+}
+.christmas{
+    height: 400px;
+    width: 500px;
+    display: inline-block;
+    margin: 20px;
+    border-radius: 25px 0px 25px 0px;
+}
+.eid{
+    height: 400px;
+    width: 500px;
+    display: inline-block;
+    margin: 20px;
+    border-radius:  0px 25px 0px 25px;
+}
+.preloader{
+    background: #fff url("assets/loader.gif") no-repeat center center;
+    background-size: 20%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+footer{
+    display: flex;
+    background: antiquewhite;
+    overflow: hidden;
+    height: 200px;
+    gap: 5px;
+    justify-content: space-between;
+}
+.footer-text{
+    margin: 20px;
+    margin-top: 50px;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+.bold{
+    font-weight: bolder;
+    text-decoration: none;
+    color: blue;
+}
+.img-69{
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    margin-top: 55px;
+    position: relative;
+}
+.loadpng{
+    position: relative;
+    bottom: 7px;
+    height: 50px;
+    width: 60px;
+    right: 20px;
+}
+.face-button {
+    height: 64px;
+    display: inline-block;
+    border: 3px solid #e43;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    color: #e43;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  .face-button .icon {
+    margin-right: 6px;
+  }
+  .face-button .face-primary,
+  .face-button .face-secondary {
+    display: block;
+    padding: 0 32px;
+    line-height: 64px;
+    transition: margin 0.4s;
+  }
+  .face-button .face-primary {
+    background-color: #e43;
+    color: #fff;
+  }
+  .face-button:hover .face-primary {
+    margin-top: -64px;
+  }
+  .secure{
+    position: inherit;
+    right: 30px;
+    font-weight: bolder;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+  }
+  i{
+    position: relative;
+    right: 45px;
+  }
+@media (prefers-color-scheme:dark){
+    body{
+        background-color: #333333;
+    }
+    .festive{
+        color: #fff;
+    }
+    .quote{
+        color: #fff;
+    }
+    .logo{
+        border-radius:25px 10px 25px 10px;
+        height: 120px;
+        width: 120px;
+    }
+    .mouse{
+        border: 2px solid #fff;
+    }
+    .mouse::before{
+        background-color: #fff;
+    }
+}
+@media only screen and (max-width:1224px){
+    .footer-text{
+       font-size: 19px;
+    }
+    .secure{
+        right: 18px;
+    }
+}
+@media only screen and (max-width:500px){
+    .logo{
+        position: relative;
+        height: 90px;
+        width: 90px;
+        margin: 10px;
+        left: 30px;
+    }
+    .home{
+        border: 1px solid #07f0d8;
+        background-color: #07f0d8;
+        border-radius: 5px;
+        display: block;
+        position: relative;
+        float: right;
+        top: 30px;
+        right: 20px;
+        height: 25px;
+        width: 150px;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+    } 
+    hr{
+        width: 250px;
+        border: 5px solid gold;
+        border-radius: 5px;
+    }
+    .festive{
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        font-size: 25px;
+    }
+    .diwali{
+        height: 260px;
+        width: 260px;
+        display: block;
+        margin: 20px;
+        border-radius: 25px 0px 25px 0px;
+    }
+    .holi{
+        border: 2px solid #f0e807;
+        height: 260px;
+        width: 300px;
+        display: inline-block;
+        margin: 20px;
+        border-radius: 0px 25px 0px 25px;
+    }
+    .dusshera{
+        height: 260px;
+        width: 300px;
+        display: inline-block;
+        margin: 20px;
+        border-radius: 25px 0px 25px 0px;
+    }
+    .durgapuja{
+        border: 2px solid #f0e807;
+        height: 260px;
+        width: 300px;
+        display: inline-block;
+        margin: 20px;
+        border-radius: 0px 25px 0px 25px;
+    }
+    .christmas{
+        height: 260px;
+        width: 300px;
+        display: inline-block;
+        margin: 20px;
+        border-radius: 25px 0px 25px 0px;
+    }
+    
+    .eid{
+        height: 260px;
+        width: 300px;
+        display: inline-block;
+        margin: 20px;
+        border-radius: 0px 25px 0px 25px;
+    }
+    .pic1{
+        position: relative;
+    }
+    .img1{
+        position: absolute;
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5); 
+        color: #f1f1f1;
+        font-family: 'Poppins', sans-serif;
+        border-radius: 25px 0px 25px 0px;
+        transition: .5s ease;
+        opacity:0;
+        color: white;
+        font-size: 20px;
+        left: 20px;
+        width: 260px;
+        padding: 20px;
+        bottom: 20px;
+        text-align: center;
+        align-items: center;
+    }
+    .pic1:hover .img1{
+        opacity: 1;
+    }
+    .pic2{
+        position: relative;
+    }
+    .img2{
+        position: absolute;
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5);
+        color: #f1f1f1;
+        font-family: 'Poppins', sans-serif;
+        border-radius: 0px 25px 0px 25px;
+        transition: .5s ease;
+        opacity:0;
+        color: white;
+        font-size: 20px;
+        left: 20px;
+        width: 264px;
+        padding: 20px;
+        bottom: 24px;
+        text-align: center;
+        align-items: center;
+    }
+    .pic2:hover .img2{
+        opacity: 1;
+    }
+    .pic3{
+        position: relative;
+    }
+    .img3{
+        position: absolute;
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5);
+        color: #f1f1f1;
+        font-family: 'Poppins', sans-serif;
+        border-radius: 25px 0px 25px 0px;
+        transition: .5s ease;
+        opacity:0;
+        color: white;
+        font-size: 20px;
+        left: 20px;
+        width: 260px;
+        padding: 20px;
+        bottom: 23px;
+        text-align: center;
+        align-items: center;
+    }
+    .pic3:hover .img3{
+        opacity: 1;
+    }
+    .pic4{
+        position: relative;
+    }
+    .img4{
+        position: absolute;
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5); 
+        color: #f1f1f1;
+        font-family: 'Poppins', sans-serif;
+        border-radius: 0px 25px 0px 25px;
+        transition: .5s ease;
+        opacity:0;
+        color: white;
+        font-size: 20px;
+        left: 20px;
+        width: 260px;
+        padding: 20px;
+        bottom: 23px;
+        text-align: center;
+        align-items: center;
+    }
+    .pic4:hover .img4{
+        opacity: 1;
+    }
+    .pic5{
+        position: relative;
+    }
+    .img5{
+        position: absolute;
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5); 
+        color: #f1f1f1;
+        font-family: 'Poppins', sans-serif;
+        border-radius: 25px 0px 25px 0px;
+        transition: .5s ease;
+        opacity:0;
+        color: white;
+        font-size: 20px;
+        left: 20px;
+        width: 260px;
+        padding: 20px;
+        bottom: 23px;
+        text-align: center;
+        align-items: center;
+    }
+    .pic5:hover .img5{
+        opacity: 1;
+    }
+    .pic6{
+        position: relative;
+    }
+    .img6{
+        position: absolute;
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5);
+        color: #f1f1f1;
+        font-family: 'Poppins', sans-serif;
+        border-radius: 0px 25px 0px 25px;
+        transition: .5s ease;
+        opacity:0;
+        color: white;
+        font-size: 20px;
+        left: 20px;
+        width: 263px;
+        padding: 20px;
+        bottom: 24px;
+        text-align: center;
+        align-items: center;
+    }
+    .pic6:hover .img6{
+        opacity: 1;
+    }
+    .preloader{
+        background: #fff url("assets/loader.gif") no-repeat center center;
+        background-size: 50%;
+        height: 100vh;
+        width: 100%;
+        position: fixed;
+        z-index: 100;
+    }
+    footer{
+        display: none;
+    }
+}
+@media only screen and (max-width: 600px){
+    .logo{
+        position: relative;
+        height: 90px;
+        width: 90px;
+        margin: 10px;
+        left: 30px;
+    }
+    .home{
+        border: 1px solid #07f0d8;
+        background-color: #07f0d8;
+        border-radius: 5px;
+        display: block;
+        position: relative;
+        float: right;
+        top: 30px;
+        right: 20px;
+        height: 25px;
+        width: 150px;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+    } 
+    hr{
+        width: 250px;
+        border: 5px solid gold;
+        border-radius: 5px;
+    }
+    .festive{
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        font-size: 25px;
+    }
+    .diwali{
+        height: 260px;
+        width: 300px;
+        display: block;
+        margin: 20px;
+        border-radius: 25px 0px 25px 0px;
+    }
+    .holi{
+        border: 2px solid #f0e807;
+        height: 260px;
+        width: 300px;
+        display: inline-block;
+        margin: 20px;
+        border-radius: 0px 25px 0px 25px;
+    }
+    .dusshera{
+        height: 260px;
+        width: 300px;
+        display: inline-block;
+        margin: 20px;
+        border-radius: 25px 0px 25px 0px;
+    }
+    .durgapuja{
+        border: 2px solid #f0e807;
+        height: 260px;
+        width: 300px;
+        display: inline-block;
+        margin: 20px;
+        border-radius: 0px 25px 0px 25px;
+    }
+    .christmas{
+        height: 260px;
+        width: 300px;
+        display: inline-block;
+        margin: 20px;
+        border-radius: 25px 0px 25px 0px;
+    }
+    
+    .eid{
+        height: 260px;
+        width: 300px;
+        display: inline-block;
+        margin: 20px;
+        border-radius: 0px 25px 0px 25px;
+    }
+    .pic1{
+        position: relative;
+    }
+    .img1{
+        position: absolute;
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5); 
+        color: #f1f1f1;
+        font-family: 'Poppins', sans-serif;
+        border-radius: 25px 0px 25px 0px;
+        transition: .5s ease;
+        opacity:0;
+        color: white;
+        font-size: 20px;
+        left: 20px;
+        width: 260px;
+        padding: 20px;
+        bottom: 20px;
+        text-align: center;
+        align-items: center;
+    }
+    .pic1:hover .img1{
+        opacity: 1;
+    }
+    .pic2{
+        position: relative;
+    }
+    .img2{
+        position: absolute;
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5);
+        color: #f1f1f1;
+        font-family: 'Poppins', sans-serif;
+        border-radius: 0px 25px 0px 25px;
+        transition: .5s ease;
+        opacity:0;
+        color: white;
+        font-size: 20px;
+        left: 20px;
+        width: 264px;
+        padding: 20px;
+        bottom: 24px;
+        text-align: center;
+        align-items: center;
+    }
+    .pic2:hover .img2{
+        opacity: 1;
+    }
+    .pic3{
+        position: relative;
+    }
+    .img3{
+        position: absolute;
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5);
+        color: #f1f1f1;
+        font-family: 'Poppins', sans-serif;
+        border-radius: 25px 0px 25px 0px;
+        transition: .5s ease;
+        opacity:0;
+        color: white;
+        font-size: 20px;
+        left: 20px;
+        width: 260px;
+        padding: 20px;
+        bottom: 23px;
+        text-align: center;
+        align-items: center;
+    }
+    .pic3:hover .img3{
+        opacity: 1;
+    }
+    .pic4{
+        position: relative;
+    }
+    .img4{
+        position: absolute;
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5); 
+        color: #f1f1f1;
+        font-family: 'Poppins', sans-serif;
+        border-radius: 0px 25px 0px 25px;
+        transition: .5s ease;
+        opacity:0;
+        color: white;
+        font-size: 20px;
+        left: 20px;
+        width: 260px;
+        padding: 20px;
+        bottom: 23px;
+        text-align: center;
+        align-items: center;
+    }
+    .pic4:hover .img4{
+        opacity: 1;
+    }
+    .pic5{
+        position: relative;
+    }
+    .img5{
+        position: absolute;
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5); 
+        color: #f1f1f1;
+        font-family: 'Poppins', sans-serif;
+        border-radius: 25px 0px 25px 0px;
+        transition: .5s ease;
+        opacity:0;
+        color: white;
+        font-size: 20px;
+        left: 20px;
+        width: 260px;
+        padding: 20px;
+        bottom: 23px;
+        text-align: center;
+        align-items: center;
+    }
+    .pic5:hover .img5{
+        opacity: 1;
+    }
+    .pic6{
+        position: relative;
+    }
+    .img6{
+        position: absolute;
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5);
+        color: #f1f1f1;
+        font-family: 'Poppins', sans-serif;
+        border-radius: 0px 25px 0px 25px;
+        transition: .5s ease;
+        opacity:0;
+        color: white;
+        font-size: 20px;
+        left: 20px;
+        width: 264px;
+        padding: 20px;
+        bottom: 24px;
+        text-align: center;
+        align-items: center;
+    }
+    .preloader{
+        background: #fff url("assets/loader.gif") no-repeat center center;
+        background-size: 50%;
+        height: 100vh;
+        width: 100%;
+        position: fixed;
+        z-index: 100;
+    }
+    footer{
+        display: none;
+    }
+}
+@media only screen and (max-width: 300px){
+    .logo{
+        position: relative;
+        height: 50px;
+        width: 50px;
+        margin: 10px;
+        left: 30px;
+    }
+    .home{
+        border: 1px solid #07f0d8;
+        background-color: #07f0d8;
+        border-radius: 5px;
+        display: block;
+        position: relative;
+        float: right;
+        top: 15px;
+        right: 20px;
+        height: 20px;
+        width: 125px;
+        font-size: 12px;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+    } 
+    hr{
+        width: 200px;
+        border: 5px solid gold;
+        border-radius: 5px;
+    }
+    .festive{
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .quote{
+        font-size: 15px;
+    }
+    .diwali{
+        height: 216px;
+        width: 243px;
+        display: block;
+        margin: 20px;
+        border-radius: 25px 0px 25px 0px;
+    }
+    .holi{
+        border: 2px solid #f0e807;
+        height: 216px;
+        width: 243px;
+        display: inline-block;
+        margin: 20px;
+        border-radius: 0px 25px 0px 25px;
+    }
+    .dusshera{
+        height: 216px;
+        width: 243px;
+        display: inline-block;
+        margin: 20px;
+        border-radius: 25px 0px 25px 0px;
+    }
+    .durgapuja{
+        border: 2px solid #f0e807;
+        height: 216px;
+        width: 243px;
+        display: inline-block;
+        margin: 20px;
+        border-radius: 0px 25px 0px 25px;
+    }
+    .christmas{
+        height: 216px;
+        width: 243px;
+        display: inline-block;
+        margin: 20px;
+        border-radius: 25px 0px 25px 0px;
+    }
+    
+    .eid{
+        height: 216px;
+        width: 243px;
+        display: inline-block;
+        margin: 20px;
+        border-radius: 0px 25px 0px 25px;
+    }
+    .pic1{
+        position: relative;
+    }
+    .img1{
+        position: absolute;
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5); 
+        color: #f1f1f1;
+        font-family: 'Poppins', sans-serif;
+        border-radius: 25px 0px 25px 0px;
+        transition: .5s ease;
+        opacity:0;
+        color: white;
+        font-size: 20px;
+        left: 20px;
+        width: 203px;
+        padding: 20px;
+        bottom: 20px;
+        text-align: center;
+        align-items: center;
+    }
+    .pic1:hover .img1{
+        opacity: 1;
+    }
+    .pic2{
+        position: relative;
+    }
+    .img2{
+        position: absolute;
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5);
+        color: #f1f1f1;
+        font-family: 'Poppins', sans-serif;
+        border-radius: 0px 25px 0px 25px;
+        transition: .5s ease;
+        opacity:0;
+        color: white;
+        font-size: 20px;
+        left: 20px;
+        width: 206px;
+        padding: 20px;
+        bottom: 24px;
+        text-align: center;
+        align-items: center;
+    }
+    .pic2:hover .img2{
+        opacity: 1;
+    }
+    .pic3{
+        position: relative;
+    }
+    .img3{
+        position: absolute;
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5);
+        color: #f1f1f1;
+        font-family: 'Poppins', sans-serif;
+        border-radius: 25px 0px 25px 0px;
+        transition: .5s ease;
+        opacity:0;
+        color: white;
+        font-size: 20px;
+        left: 20px;
+        width: 203px;
+        padding: 20px;
+        bottom: 23px;
+        text-align: center;
+        align-items: center;
+    }
+    .pic3:hover .img3{
+        opacity: 1;
+    }
+    .pic4{
+        position: relative;
+    }
+    .img4{
+        position: absolute;
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5); 
+        color: #f1f1f1;
+        font-family: 'Poppins', sans-serif;
+        border-radius: 0px 25px 0px 25px;
+        transition: .5s ease;
+        opacity:0;
+        color: white;
+        font-size: 20px;
+        left: 20px;
+        width: 207px;
+        padding: 20px;
+        bottom: 23px;
+        text-align: center;
+        align-items: center;
+    }
+    .pic4:hover .img4{
+        opacity: 1;
+    }
+    .pic5{
+        position: relative;
+    }
+    .img5{
+        position: absolute;
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5); 
+        color: #f1f1f1;
+        font-family: 'Poppins', sans-serif;
+        border-radius: 25px 0px 25px 0px;
+        transition: .5s ease;
+        opacity:0;
+        color: white;
+        font-size: 20px;
+        left: 20px;
+        width: 203px;
+        padding: 20px;
+        bottom: 23px;
+        text-align: center;
+        align-items: center;
+    }
+    .pic5:hover .img5{
+        opacity: 1;
+    }
+    .pic6{
+        position: relative;
+    }
+    .img6{
+        position: absolute;
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5);
+        color: #f1f1f1;
+        font-family: 'Poppins', sans-serif;
+        border-radius: 0px 25px 0px 25px;
+        transition: .5s ease;
+        opacity:0;
+        color: white;
+        font-size: 20px;
+        left: 20px;
+        width: 203px;
+        padding: 20px;
+        bottom: 24px;
+        text-align: center;
+        align-items: center;
+    }
+    .pic6:hover .img6{
+        opacity: 1;
+    }
+    .preloader{
+        background: #fff url("assets/loader.gif") no-repeat center center;
+        background-size: 50%;
+        height: 100vh;
+        width: 100%;
+        position: fixed;
+        z-index: 100;
+    }
+    footer{
+        display: none;
+    }
+}
