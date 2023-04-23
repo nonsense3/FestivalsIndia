@@ -290,7 +290,7 @@ main{
     border-radius:  0px 25px 0px 25px;
 }
 .preloader{
-    background: #fff url("assets/loader.gif") no-repeat center center;
+    background: #fff url("loader.gif") no-repeat center center;
     background-size: 20%;
     height: 100vh;
     width: 100%;
@@ -624,7 +624,7 @@ footer{
         opacity: 1;
     }
     .preloader{
-        background: #fff url("assets/loader.gif") no-repeat center center;
+        background: #fff url("loader.gif") no-repeat center center;
         background-size: 50%;
         height: 100vh;
         width: 100%;
@@ -855,7 +855,7 @@ footer{
         align-items: center;
     }
     .preloader{
-        background: #fff url("assets/loader.gif") no-repeat center center;
+        background: #fff url("loader.gif") no-repeat center center;
         background-size: 50%;
         height: 100vh;
         width: 100%;
@@ -1093,7 +1093,7 @@ footer{
         opacity: 1;
     }
     .preloader{
-        background: #fff url("assets/loader.gif") no-repeat center center;
+        background: #fff url("loader.gif") no-repeat center center;
         background-size: 50%;
         height: 100vh;
         width: 100%;
