@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 body{
-    background-image: url("assets/Diwali.jpg");
+    background-image: url("Diwali.jpg");
     background-repeat: no-repeat;
     margin: 0;
     padding: 0;
